@@ -4,9 +4,11 @@
 .AppleDouble
 .LSOverride
 
-# 개인 작업 파일 (원본 사진/음성/메모) — 절대 push 금지
-../workfiles/
-../writing-guide/
+# workfiles — 폴더 구조는 유지, 내부 파일은 push 금지
+workfiles/**
+!workfiles/
+!workfiles/*/
+!workfiles/*/.gitkeep
 
 # 편집기 임시 파일
 *.swp
