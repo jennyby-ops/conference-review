@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# 개인 작업 파일 (원본 사진/음성/메모) — 절대 push 금지
+../workfiles/
+../writing-guide/
+
+# 편집기 임시 파일
+*.swp
+*.swo
+.vscode/
+.idea/
